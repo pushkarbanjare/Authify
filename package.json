@@ -4,7 +4,7 @@
   "description": "A secure, full-stack authentication system built with the MERN stack, offering seamless user login and authorization.",
   "main": "backend/index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon backend/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
     "start": "cross-env NODE_ENV=production node backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
